@@ -130,7 +130,7 @@
    - Add an `ElevatedButton` for the register action.
 
 ### Resources:
-- [Figma Desdign](https://www.figma.com/design/NQytFjSrYgAD3eN9I6tgBZ/DSOC-2024?node-id=0-1&t=2VvPwuvaPHQIxCO8-0)
+- [Figma Design](https://www.figma.com/design/NQytFjSrYgAD3eN9I6tgBZ/DSOC-2024?node-id=0-1&t=2VvPwuvaPHQIxCO8-0)
 - [Form Validation in Flutter](https://flutter.dev/docs/cookbook/forms/validation)
 - [Handling User Input](https://flutter.dev/docs/development/ui/interactive)
 
