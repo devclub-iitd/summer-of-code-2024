@@ -57,7 +57,7 @@ We'll be using the following tools and technologies:
   - `streamlit`: For creating interactive web applications
   - `gradio`: For creating interactive web applications
 - **Cloud Services**:
-  - Google Colab: For running ypur ML workflows in the cloud with GPUs
+  - Google Colab: For running your ML workflows in the cloud with GPUs
 
 ## Timeline and Weekly Tasks
 
