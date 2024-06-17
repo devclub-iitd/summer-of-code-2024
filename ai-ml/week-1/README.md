@@ -64,7 +64,7 @@ Machine learning can often be more effective than humans at uncovering non-intui
 ### 4.3 Data Preprocessing
 
 - Handle missing values, encode categorical variables, and normalize numerical features.
-- [Pandas Data Cleaning Tutorial](https://www.dataquest.io/blog/tutorial-pandas-dataframe/)
+- [Pandas Data Cleaning Tutorial](https://www.freecodecamp.org/news/data-cleaning-and-preprocessing-with-pandasbdvhj/)
 - [Scikit-learn Preprocessing Guide](https://scikit-learn.org/stable/modules/preprocessing.html)
 
 ### 4.4 Feature Engineering
@@ -83,27 +83,27 @@ Machine learning can often be more effective than humans at uncovering non-intui
 
 Implement and compare multiple algorithms. These are some common Classification (classifying data into fraud or non-fraud categories) models:
 
-- Logistic Regression: [Scikit-learn Logistic Regression](https://realpython.com/logistic-regression-python/)
-- Random Forest: [Random Forest Tutorial](https://www.datacamp.com/tutorial/random-forest-classifier-python)
-- XGBoost: [XGBoost Python API](https://www.datacamp.com/tutorial/xgboost-in-python)
-- LightGBM: [LightGBM Python API](https://www.datacamp.com/tutorial/gradient-boosting-lightgbm)
-- Support Vector Machines: [Scikit-learn SVM](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)
-- Neural Networks: [Keras Sequential Model](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
+- Logistic Regression: [Logistic Regression Tutorial](https://realpython.com/logistic-regression-python/)
+- Random Forest: [Random Forest Tutorial](https://www.datacamp.com/tutorial/random-forests-classifier-python)
+- XGBoost: [XGBoost Tutorial](https://www.datacamp.com/tutorial/xgboost-in-python)
+- LightGBM: [LightGBM Tutorial](https://www.analyticsvidhya.com/blog/2021/08/complete-guide-on-how-to-use-lightgbm-in-python/)
+- Support Vector Machines: [SVM Tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)
+- Neural Networks: [Keras Tutorial](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
 
 ### 4.7 Model Evaluation
 
 - Use appropriate metrics like precision-recall curve and ROC AUC score.
-- [Scikit-learn Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+- [Scikit-learn Model Evaluation](https://builtin.com/data-science/evaluating-classification-models)
 
 ### 4.8 Model Interpretability
 
-- Apply SHAP values to understand feature importance and model decisions.
-- [SHAP in Python Tutorial](https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d)
+- (Optional) Apply SHAP values to understand feature importance and model decisions.
+- [SHAP in Python Tutorial](https://medium.com/dataman-in-ai/explain-your-model-with-the-shap-values-bc36aac4de3d)
 
 ### 4.9 Create a Real-time Fraud Detection API
 
 - (Optional) Use FastAPI to create an API for real-time fraud detection.
-- [FastAPI for ML Tutorial](https://towardsdatascience.com/fastapi-the-right-way-5c4f2e0b6e20)
+- [FastAPI for ML Tutorial](https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/)
 
 ## 5. Deliverables
 
