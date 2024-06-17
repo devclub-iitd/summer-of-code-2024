@@ -1,4 +1,4 @@
-# DevClub Summer of Code 2024: Frontend Development Track
+# DevClub Summer of Code 2024: App Development Track
 
 ## Point of Sales (PoS) System
 
