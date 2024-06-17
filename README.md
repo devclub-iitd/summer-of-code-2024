@@ -9,16 +9,16 @@ DevClub will also be giving attracting **rewards** to those people who participa
 ## The Tracks
 
 ### [App Development](app)
-- **[Week 1](app/week-1)** : 
+- [ ] **[Week 1](app/week-1)** : 
 
 ### [Backend Development](backend)
-- **[Week 1](backend/week-1)** : 
+- [ ] **[Week 1](backend/week-1)** : 
 
 ### [Frontend Development](frontend)
-- **[Week 1](frontend/week-1)** : 
+- [ ] **[Week 1](frontend/week-1)** : 
 
 ### [Machine Learning](machine-learning)
-- **[Week 1](machine-learning/week-1)** : 
+- [ ] **[Week 1](machine-learning/week-1)** : 
 
 ## How to Participate
 - First of all, [make a GitHub account](https://github.com/signup) if you haven't already!
