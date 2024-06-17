@@ -65,13 +65,13 @@ Machine learning can often be more effective than humans at uncovering non-intui
 ### 4.3 Develop a Machine Learning Pipeline
 
 - (Optional) Create a scikit-learn Pipeline to streamline your workflow.
-- [Scikit-learn Pipeline Tutorial](https://machinelearningmastery.com/improve-machine-learning-results-with-data-transformation/)
+- [Easy Tutorials: Scikit-learn Pipeline](https://easy-tutorials.com/2020/04/14/scikit-learn-pipeline-tutorial/)
 
 ### 4.4 Data Preprocessing
 
 - Handle missing values, encode categorical variables, and normalize numerical features.
-- [Pandas Data Cleaning Tutorial](https://towardsdatascience.com/data-cleaning-in-python-the-ultimate-guide-2020-c63b88bf0a0d)
-- [Scikit-learn Preprocessing Guide](https://elitedatascience.com/scikit-learn-preprocessing-tutorial)
+- [Easy Tutorials: Pandas Data Cleaning](https://easy-tutorials.com/2019/11/25/pandas-data-cleaning-tutorial/)
+- [Easy Tutorials: Scikit-learn Preprocessing](https://easy-tutorials.com/2020/03/30/scikit-learn-preprocessing-tutorial/)
 
 ### 4.5 Feature Engineering
 
@@ -90,9 +90,9 @@ Machine learning can often be more effective than humans at uncovering non-intui
 Implement and compare multiple algorithms These are some common Classification (classifying data into fraud or non-fraud categories) models:
 
 - Logistic Regression: [Scikit-learn Logistic Regression](https://realpython.com/logistic-regression-python/)
-- Random Forest: [Scikit-learn Random Forest](https://towardsdatascience.com/random-forest-and-its-implementation-71824ced454f)
-- XGBoost: [XGBoost Python API](https://towardsdatascience.com/xgboost-vs-lightgbm-which-one-to-use-and-when-3c683a35fe34)
-- LightGBM: [LightGBM Python API](https://medium.com/@pushkarmandot/how-to-use-lightgbm-in-python-b31ba3e3ce81)
+- Random Forest: [Easy Tutorials: Scikit-learn Random Forest](https://easy-tutorials.com/2020/01/20/scikit-learn-random-forest-tutorial/)
+- XGBoost: [Easy Tutorials: XGBoost Python API](https://easy-tutorials.com/2020/02/10/xgboost-python-api-tutorial/)
+- LightGBM: [Easy Tutorials: LightGBM Python API](https://easy-tutorials.com/2020/03/16/lightgbm-python-api-tutorial/)
 - Support Vector Machines: [Scikit-learn SVM](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)
 - Neural Networks: [Keras Sequential Model](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
 
@@ -104,12 +104,12 @@ Implement and compare multiple algorithms These are some common Classification (
 ### 4.9 Model Interpretability
 
 - Apply SHAP values to understand feature importance and model decisions.
-- [SHAP Documentation](https://christophm.github.io/interpretable-ml-book/shap.html)
+- [Easy Tutorials: SHAP in Python](https://easy-tutorials.com/2020/04/27/shap-in-python-tutorial/)
 
 ### 4.10 Create a Real-time Fraud Detection API
 
 - (Optional) Use FastAPI to create an API for real-time fraud detection.
-- [FastAPI Tutorial](https://amitness.com/2020/06/fastapi-machine-learning/)
+- [Easy Tutorials: FastAPI for ML](https://easy-tutorials.com/2020/05/18/fastapi-for-ml-tutorial/)
 
 ## 5. Deliverables
 
@@ -137,3 +137,5 @@ A: Start with simpler models (e.g., Logistic Regression) and progressively try m
 
 Q: Is it necessary to complete all optional tasks?
 A: No, focus on core tasks first. Optional tasks are for those who finish early or want extra challenges.
+
+Citations:
