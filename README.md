@@ -15,7 +15,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 1](backend/week-1)** : 
 
 ### [Frontend Development](frontend)
-- [ ] **[Week 1](frontend/week-1/README.md)** : 
+- [ ] **[Week 1](frontend/week-1)** : 
 
 ### [Machine Learning](machine-learning)
 - [ ] **[Week 1](machine-learning/week-1)** : 
