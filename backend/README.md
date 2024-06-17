@@ -28,7 +28,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - Every week, we will share **resources** to learn concepts for each track step-by-step, along with small **assignments** which will add up to the project.
 - We will also be having regular online lectures or discussion sessions to help you learn better.
 - **Upload** your submissions on your respective forks for each week to the track folder. (NO NEED to create pull request to the main repository for merging your changes).
-- Join out **[WhatsApp Community](https://chat.whatsapp.com/EOoXP2jEWAj2V8eJlQqf4H)** for any queries, discussions, and to stay up-to-date.
+- Join out **[WhatsApp Community]()** for any queries, discussions, and to stay up-to-date.
 
 ## Aim
 We aim to help students get started with learning coding and software development. The concepts for each [track](#the-tracks) are divided into **weeks** pedagogically so you can learn step-by-step.
@@ -38,17 +38,7 @@ No matter if you're a beginner or an expert, at each stage, you will be learning
 We are keeping the repository open to **everyone from around the world**, so everyone can use it to learn and share their ideas in the forks.
 
 ## Theme and Project
-The newly inaugurated retail store at SDA Market, Hauz Khas, is seeking to implement a sophisticated Point of Sales (PoS) system to streamline its inventory management and sales processes. With over 200 Stock Keeping Units (SKUs), the store currently faces challenges in managing inventory and maintaining accurate sales records, leading to significant financial losses. This project aims to develop an integrated PoS system that addresses these challenges by providing a centralized solution for inventory control, customer management, sales tracking, and predictive analytics.
-
-### What is a PoS System
-To understand a POS system, it's crucial to grasp the concept of a Point of Sale (POS). A Point of Sale refers to the specific physical or virtual location where a transaction takes place, typically involving the exchange of goods or services for payment. In a physical store, this could be a checkout counter equipped with a cash register and barcode scanner. Online, it represents the virtual platform where customers complete purchases. A POS system encompasses both hardware and software components that streamline these transactions, recording sales data, managing inventory, and often integrating with other business operations like customer relationship management (CRM) and accounting. This technology ensures accuracy, efficiency, and enhanced customer service in retail environments.
-
-### What you will be building
-There are basically 4 requirements of the system you will be building:
-- Web User Interfaces for Cashier and Admin to record sales and manage inventory and customer data, and a dashboard to view analytics of sales.
-- A Mobile App through which the process of billing can be made easily accessible to the cashier by adding advanced features like item barcode scanning, etc.
-- A common backend server for the web app and mobile app helping them execute the functionalities. It must be highly secure and role based authentication must be set, i.e. can be accessed by only who is authorised.
-- A Machine Learning model which intakes the sales data and provides valuable insights to the store managers regarding sales pattern, inventory holding periods, etc.
+TBA
 
 ## Rewards
 - For students from IIT Delhi
@@ -58,7 +48,7 @@ There are basically 4 requirements of the system you will be building:
 - We will be showcasing the **best projects** on our Social Media handles.
 
 ## Connect
-Join the DevClub Summer of Code 2024 [WhatsApp Community](https://chat.whatsapp.com/EOoXP2jEWAj2V8eJlQqf4H) to stay updated with releases and involve in project related discussions. Don't forget to introduce yourself - talk about your background in tech, and what are you working on and hoping to learn!
+Join the DevClub Summer of Code 2024 [WhatsApp Community]() to stay updated with releases and involve in project related discussions. Don't forget to introduce yourself - talk about your background in tech, and what are you working on and hoping to learn!
 
 Also, subscribe to DevClub's YouTube channel [@DevClubIITD](https://www.youtube.com/@DevClubIITD) and follow us on Instagram [@devclub_iitd](https://www.instagram.com/devclub_iitd/)
 
