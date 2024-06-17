@@ -28,7 +28,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - Every week, we will share **resources** to learn concepts for each track step-by-step, along with small **assignments** which will add up to the project.
 - We will also be having regular online lectures or discussion sessions to help you learn better.
 - **Upload** your submissions on your respective forks for each week to the track folder. (NO NEED to create pull request to the main repository for merging your changes).
-- Join out **[WhatsApp Community]()** for any queries, discussions, and to stay up-to-date.
+- Join out **[WhatsApp Community](https://chat.whatsapp.com/EOoXP2jEWAj2V8eJlQqf4H)** for any queries, discussions, and to stay up-to-date.
 
 ## Aim
 We aim to help students get started with learning coding and software development. The concepts for each [track](#the-tracks) are divided into **weeks** pedagogically so you can learn step-by-step.
@@ -58,7 +58,7 @@ There are basically 4 requirements of the system you will be building:
 - We will be showcasing the **best projects** on our Social Media handles.
 
 ## Connect
-Join the DevClub Summer of Code 2024 [WhatsApp Community]() to stay updated with releases and involve in project related discussions. Don't forget to introduce yourself - talk about your background in tech, and what are you working on and hoping to learn!
+Join the DevClub Summer of Code 2024 [WhatsApp Community](https://chat.whatsapp.com/EOoXP2jEWAj2V8eJlQqf4H) to stay updated with releases and involve in project related discussions. Don't forget to introduce yourself - talk about your background in tech, and what are you working on and hoping to learn!
 
 Also, subscribe to DevClub's YouTube channel [@DevClubIITD](https://www.youtube.com/@DevClubIITD) and follow us on Instagram [@devclub_iitd](https://www.instagram.com/devclub_iitd/)
 
