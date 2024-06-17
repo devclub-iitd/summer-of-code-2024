@@ -48,7 +48,7 @@ There are basically 4 requirements of the system you will be building:
 - Web User Interfaces for Cashier and Admin to record sales and manage inventory and customer data, and a dashboard to view analytics of sales.
 - A Mobile App through which the process of billing can be made easily accessible to the cashier by adding advanced features like item barcode scanning, etc.
 - A common backend server for the web app and mobile app helping them execute the functionalities. It must be highly secure and role based authentication must be set, i.e. can be accessed by only who is authorised.
-- A Machine Learning model which intakes the sales data and provides valuable insights to the store managers regarding sales pattern, inventory holding periods, etc.
+- Machine Learning models which intake the sales data and detect fraud, while providing valuable insights to the store managers regarding sales trends, inventory and ordering, etc. AI models which can interact with the customer for customer service, and which can apply complex reasoning to knowledgebase and web data to extract valuable insights.
 
 ## Rewards
 - For students from IIT Delhi
