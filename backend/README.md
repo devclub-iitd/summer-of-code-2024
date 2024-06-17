@@ -1,60 +1,126 @@
-# DevClub Summer of Code 2024
+# DevClub Summer of Code 2024: Backend Development Track
 
-Fee fi fo fum, watch out everyone, HERE I COME! DevClub, IIT Delhi welcomes you to the 2nd edition of DevClub Summer of Code. DSoC is a 5-week long hackathon helping students learn development in the fields of **App**, **Backend**, **Frontend**, and **Machine Learning**. These fields are further referred to as tracks.
+### Why learn this?
+Backend development encompasses the creation and maintenance of the server-side components that power web applications. It involves designing, developing, and managing the logic, databases, and infrastructure required to handle data processing, user authentication, business logic, and integrations. Backend developers work with programming languages like Python, Ruby, Java, or Node.js to build robust APIs, implement server-side functionalities, and ensure smooth communication between the frontend and backend. They focus on performance, security, and scalability, enabling the seamless functioning of web applications and delivering a reliable and efficient user experience.
 
-For each track, there is a **5-week long project** on a common theme divided into weekly guided assignments with increasing difficulty, where we will be providing resources and tasks so that you can learn, build, and showcase!
+### What we'll be building?
+Hola People...!!! This time, we have our theme set as [Point-of-Sales](//Insert_link_here...)
+We will be building a Point of Sales System from scratch. For the website, we will have a frontend and a backend. The frontend will be built using React and the backend will be built using Flask (Python) as the first language. Though, those interested may also build this using JavaScript (For which we will be providing support alongwith). Also, we will be using PostGreSQL for Database...
 
-DevClub will also be giving attracting **rewards** to those people who participate enthusiastically, and will also **recruit members** for the upcoming tenure.
+## Point of Sales (PoS) System
 
-## The Tracks
+The project aims to develop a sophisticated Point of Sales (PoS) system to streamline inventory management and sales processes. The system includes features for user authentication, customer management, inventory management, sales tracking, file uploading, invoice generation, and state management.
 
-### [App Development](app)
-- [ ] **[Week 1](app/week-1)** : 
+## Why Use Flask for PoS Development?
 
-### [Backend Development](backend)
-- [ ] **[Week 1](backend/week-1)** : 
+- *Scalability and Flexibility:* Flask provides the flexibility to scale the application as needed, making it ideal for building a PoS system that may evolve over time.
+- *Microframework Approach:* Flask’s lightweight nature allows for minimal setup, giving developers control over which components to include, thus ensuring a streamlined and efficient development process.
+- *Strong Community Support:* The extensive documentation and active community support available for Flask help address development issues and leverage best practices.
 
-### [Frontend Development](frontend)
-- [ ] **[Week 1](frontend/week-1)** : 
+## Timeline
+### Week 1: Setup and Basic CRUD Operations
 
-### [Machine Learning](machine-learning)
-- [ ] **[Week 1](machine-learning/week-1)** : 
+*Concepts:*
+- Introduction to Flask and PostgreSQL.
+- Setting up the development environment.
 
-## How to Participate
-- First of all, [make a GitHub account](https://github.com/signup) if you haven't already!
-- [Fork](https://github.com/devclub-iitd/summer-of-code-2024/fork) this repository. This will give you a copy of this repository where you can do changes as you like. Make sure to [sync](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) latest changes whenever your fork falls behind ours. Later, you should install [git](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork), setup [ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork on your local machine. You can also refer to [this video](https://youtu.be/YDniPA01pJc?t=2820) by DevClub for learning git.
-- Edit [author.json](author.json) to include your details so that we can identify you. Feel free to include other details like `mobile_number`, `email_id`, etc.
-- Check out each [track](#the-tracks) from their respective folder, and explore about them. You can try out multiple tracks too!
-- Every week, we will share **resources** to learn concepts for each track step-by-step, along with small **assignments** which will add up to the project.
-- We will also be having regular online lectures or discussion sessions to help you learn better.
-- **Upload** your submissions on your respective forks for each week to the track folder. (NO NEED to create pull request to the main repository for merging your changes).
-- Join out **[WhatsApp Community]()** for any queries, discussions, and to stay up-to-date.
+*Tasks:*
+1. *Development Environment Setup:*
+    - Install Python, Flask, PostgreSQL, and VSCode.
+    - Set up a virtual environment for the project.
+2. *Project Initialization:*
+    - Create a new Flask project.
+    - Configure the Flask application.
+    - Set up a connection to the PostgreSQL database.
+3. *Database Models:*
+    - Create models for inventory items and customers directly using PostgreSQL.
 
-## Aim
-We aim to help students get started with learning coding and software development. The concepts for each [track](#the-tracks) are divided into **weeks** pedagogically so you can learn step-by-step.
 
-No matter if you're a beginner or an expert, at each stage, you will be learning something new, and building something **useful** in real world. You will also be equipped with the skills and tools which would meet **most tech requirements**, and the final projects in each track will be good enough to be put in your **portfolio or CV**.
+### Week 2: Product Management
 
-We are keeping the repository open to **everyone from around the world**, so everyone can use it to learn and share their ideas in the forks.
+*Concepts:*
+- Basic CRUD operations with Flask.
+- Flask Blueprints for modular applications.
 
-## Theme and Project
-TBA
+*Project Tasks:*
+1. *Product CRUD Operations:*
+    - Create API endpoints for product-related CRUD operations.
+    - Implement Create, Read, Update, and Delete operations for products using PostgreSQL.
+    - Use Flask Blueprints to organize the code.
+2. *Product Management Interface:*
+    - Create interfaces for adding, modifying, and managing product information.
 
-## Rewards
-- For students from IIT Delhi
-    - From each track, we will be recruiting **Executive Members** for the DevClub team in the upcoming tenure.
-    - **Certificates** and **ECAs** will be provided to students who perform exceptionally well.
-- We will also be sharing **opportunities** relevant to the tools we have covered here, and your submissions can serve as a proof of your skill.
-- We will be showcasing the **best projects** on our Social Media handles.
+### Week 3: User Management and Authentication
 
-## Connect
-Join the DevClub Summer of Code 2024 [WhatsApp Community]() to stay updated with releases and involve in project related discussions. Don't forget to introduce yourself - talk about your background in tech, and what are you working on and hoping to learn!
+*Concepts:*
+- Developing RESTful APIs with Flask.
+- User authentication and role-based access control using Flask-Login.
+- Secure password handling and session management.
 
-Also, subscribe to DevClub's YouTube channel [@DevClubIITD](https://www.youtube.com/@DevClubIITD) and follow us on Instagram [@devclub_iitd](https://www.instagram.com/devclub_iitd/)
+*Project Tasks:*
+1. *User Authentication:*
+    - Set up Flask-Login for user authentication.
+    - Create user registration, login, and logout functionalities.
+    - Implement role-based access control.
+2. *User CRUD Operations:*
+    - Create API endpoints for user-related CRUD operations.
+    - Implement Create, Read, Update, and Delete operations for users using PostgreSQL.
+3. *Secure Password Handling:*
+    - Use bcrypt to hash and store user passwords securely.
+    - Implement session management for user login sessions.
 
-Star ⭐ this repository if you found it useful 😄
+### Week 4: Comprehensive PoS Interface, Transactions, Invoicing, and Initial Deployment
 
-## Disclaimer
-[DevClub](https://devclub.in/) is an official technical club under [Co-curricular and Academic Interaction Council (CAIC)](https://caic.iitd.ac.in/), [IIT Delhi](https://home.iitd.ac.in). It is also the [Google Developer Student Club (GDSC)](https://gdsc.community.dev/indian-institute-of-technology-delhi/) chapter for Indian Institute of Technology (IIT), Delhi.
+*Concepts (First Half):*
+- Handling sales transactions.
+- Generating PDF and email invoices using Flask extensions.
+- Storing and retrieving transaction history.
+- Implementing secure and efficient data storage practices.
 
-We have no other associations with any external organisation. All our learning resources are *free of cost* for all students.
+*Project Tasks (First Half):*
+1. *PoS Interface and Transactions:*
+    - Develop API endpoints for the PoS interface.
+    - Implement the checkout process, including item addition and removal from the cart.
+    - Ensure proper validation and error handling for sales transactions.
+2. *Invoice Generation:*
+    - Use libraries like ReportLab or WeasyPrint to generate PDF invoices.
+    - Implement functionality to email invoices to customers.
+3. *Transaction History:*
+    - Develop endpoints to store and retrieve transaction history.
+    - Implement secure access to transaction history data.
+    - Ensure data integrity and secure storage practices for transaction data.
+
+*Concepts (Second Half):*
+- Deployment strategies for Flask applications.
+- Using Docker to containerize the application.
+
+*Project Tasks (Second Half):*
+1. *Containerization:*
+    - Containerize the Flask application using Docker.
+    - Write a Dockerfile and docker-compose.yml for the application.
+
+### Week 5: Final Deployment
+
+*Concepts:*
+- Setting up Continuous Integration/Continuous Deployment (CI/CD) pipelines.
+- Deploying to a cloud platform (AWS, GCP, or Azure).
+
+*Project Tasks:*
+1. *CI/CD Pipeline:*
+    - Set up a CI/CD pipeline using tools like GitHub Actions or GitLab CI.
+    - Automate the deployment process.
+2. *Cloud Deployment:*
+    - Deploy the application to a cloud platform (AWS, GCP, or Azure).
+    - Configure environment variables and secrets management.
+3. *Production-Readiness:*
+    - Ensure the application is production-ready with proper security configurations.
+    - Optimize for scalability and performance.
+4. *Monitoring and Logging:*
+    - Set up monitoring and logging for the deployed application to ensure it runs smoothly in production.
+
+## Learning Resources
+
+- *Flask Documentation:* [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+- *PostgreSQL Documentation:* [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- *Flask-Login:* [Flask-Login Documentation](https://flask-login.readthedocs.io/en/latest/)
+- *WeasyPrint:* [WeasyPrint Documentation](https://pythonhosted.org/Flask-WeasyPrint/)
