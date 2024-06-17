@@ -38,7 +38,17 @@ No matter if you're a beginner or an expert, at each stage, you will be learning
 We are keeping the repository open to **everyone from around the world**, so everyone can use it to learn and share their ideas in the forks.
 
 ## Theme and Project
-TBA
+The newly inaugurated retail store at SDA Market, Hauz Khas, is seeking to implement a sophisticated Point of Sales (PoS) system to streamline its inventory management and sales processes. With over 200 Stock Keeping Units (SKUs), the store currently faces challenges in managing inventory and maintaining accurate sales records, leading to significant financial losses. This project aims to develop an integrated PoS system that addresses these challenges by providing a centralized solution for inventory control, customer management, sales tracking, and predictive analytics.
+
+### What is a PoS System
+To understand a POS system, it's crucial to grasp the concept of a Point of Sale (POS). A Point of Sale refers to the specific physical or virtual location where a transaction takes place, typically involving the exchange of goods or services for payment. In a physical store, this could be a checkout counter equipped with a cash register and barcode scanner. Online, it represents the virtual platform where customers complete purchases. A POS system encompasses both hardware and software components that streamline these transactions, recording sales data, managing inventory, and often integrating with other business operations like customer relationship management (CRM) and accounting. This technology ensures accuracy, efficiency, and enhanced customer service in retail environments.
+
+### What you will be building
+There are basically 4 requirements of the system you will be building:
+- Web User Interfaces for Cashier and Admin to record sales and manage inventory and customer data, and a dashboard to view analytics of sales.
+- A Mobile App through which the process of billing can be made easily accessible to the cashier by adding advanced features like item barcode scanning, etc.
+- A common backend server for the web app and mobile app helping them execute the functionalities. It must be highly secure and role based authentication must be set, i.e. can be accessed by only who is authorised.
+- A Machine Learning model which intakes the sales data and provides valuable insights to the store managers regarding sales pattern, inventory holding periods, etc.
 
 ## Rewards
 - For students from IIT Delhi
