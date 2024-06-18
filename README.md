@@ -12,7 +12,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 1](app/week-1)** : 
 
 ### [Backend Development](backend)
-- [ ] **[Week 1](backend/week-1)** : 
+- [ ] **[Week 1](backend/week-1)** : Setting up the dev environment, initialise a Flask project, connect it to PostgreSQL, and create database models for inventory items and customers.
 
 ### [Frontend Development](frontend)
 - [ ] **[Week 1](frontend/week-1)** : 
