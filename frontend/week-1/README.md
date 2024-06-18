@@ -44,7 +44,7 @@ The basic frameworks on which frontend development builds on, is HTML, CSS and J
 
 Just like for any portal or dashboard, the most fundamental page is the Login and Sign Up page. This task is the building block to the future weeks' tasks that you will be doing, so make sure to understand well whatever you are doing.
 
-You have to strictly use HTML, CSS5 (no other CSS frameworks are allowed! This is an introductory task to web development, so you have to use CSS5 only) and Javascript to implement any of the following figma designs for a simple sign in or login page.
+You can use raw CSS5 or any CSS framework like Bootstrap/Tailwind and Javascript to implement any of the following figma designs for a simple sign in or login page.
 
 - [Figma Design - Glass Effect](<https://www.figma.com/design/WWDrX1RbMzO1zDqWWywevb/Glass-Effect-Login-Page-(Community)?node-id=101-10072&t=9vz5E3NuspTh58t6-0>)
 
