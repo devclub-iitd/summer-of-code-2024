@@ -4,7 +4,7 @@
 Backend development encompasses the creation and maintenance of the server-side components that power web applications. It involves designing, developing, and managing the logic, databases, and infrastructure required to handle data processing, user authentication, business logic, and integrations. Backend developers work with programming languages like Python, Ruby, Java, or Node.js to build robust APIs, implement server-side functionalities, and ensure smooth communication between the frontend and backend. They focus on performance, security, and scalability, enabling the seamless functioning of web applications and delivering a reliable and efficient user experience.
 
 ### What we'll be building?
-Hola People...!!! This time, we have our theme set as [Point-of-Sales](//Insert_link_here...)
+Hola People...!!! This time, we have our theme set as [Point-of-Sales](/README.md/#theme-and-project)
 We will be building a Point of Sales System from scratch. For the website, we will have a frontend and a backend. The frontend will be built using React and the backend will be built using Flask (Python) as the first language. Though, those interested may also build this using JavaScript (For which we will be providing support alongwith). Also, we will be using PostGreSQL for Database...
 
 ## Point of Sales (PoS) System
