@@ -9,7 +9,9 @@ DevClub will also be giving attracting **rewards** to those people who participa
 ## The Tracks
 
 ### [App Development](app)
-- [ ] **[Week 1](app/week-1)** : 
+- [ ] **[Week 1](app/week-1)** :
+Setting up flutter sdk and vscode,
+creating a flutter project,learning basic widgets,routing,snackbars and finally replicating figma design.
 
 ### [Backend Development](backend)
 - [ ] **[Week 1](backend/week-1)** : Setting up the dev environment, initialise a Flask project, connect it to PostgreSQL, and create database models for inventory items and customers.
