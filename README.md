@@ -20,7 +20,7 @@ creating a flutter project,learning basic widgets,routing,snackbars and finally 
 - [ ] **[Week 1](frontend/week-1)** : Learn HTML, CSS, and JavaScript to create a visually appealing Login and Sign-Up page. Use provided Figma designs and ensure responsiveness for different screen sizes.
 
 ### [Machine Learning](machine-learning)
-- [ ] **[Week 1](machine-learning/week-1)** : 
+- [ ] **[Week 1](machine-learning/week-1)** : Learn how to build a full ML model to detect fraudulant transactions for our POS system. Start off with standard ML libraries like sklearn, numpy and pandas. 
 
 ## How to Participate
 - First of all, [make a GitHub account](https://github.com/signup) if you haven't already!
