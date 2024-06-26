@@ -18,7 +18,8 @@
   ```yaml
   dependencies:
     provider: ^6.0.0
-
+  ```
+      
 2. **Handle Loading State of Auth Pages**
     - Use Provider to manage the loading state during authentication (login and registration).
     - Display loading indicators appropriately.
