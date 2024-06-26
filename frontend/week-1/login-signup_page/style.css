@@ -1,8 +1,8 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -49,7 +49,7 @@ header {
     background: #ffffff;
     border: none;
     cursor: pointer;
-    font-size:1em;
+    font-size: 1em;
     height: 33px;
     width: 70px;
 }
@@ -61,25 +61,25 @@ header {
 
 body {
     background: url('AdobeStock_855407159_Preview.jpeg') no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     backdrop-filter: blur(2px);
     background-position: center;
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.container {
     position: relative;
     height: 400px;
     width: 350px;
-    background-color: rgba(235, 188, 188,0.9);
+    background-color: rgba(235, 188, 188, 0.9);
     border: 2px solid rgb(16, 5, 5);
-    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     border-radius: 20px;
-    backdrop-filter:blur(50px);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,12 +88,12 @@ body {
     transform: scale(0);
 }
 
-.container.active-popup{
+.container.active-popup {
     transform: scale(1);
 }
 
-.container.active{
-    height:450px;
+.container.active {
+    height: 450px;
 }
 
 .container .form-box {
@@ -102,42 +102,44 @@ body {
 
 }
 
-.container .form-box.login{
+.container.active-popup .form-box.login {
     transition: transform .18s ease;
     transform: translateX(0);
 }
 
-.container.active .form-box.login{
+.container.active.active-popup .form-box.login {
     transition: none;
     transform: translateX(-400px);
 }
 
-.container .form-box.register{
-    position: absolute ;
+.container.active-popup .form-box.register {
+    position: absolute;
     transition: none;
     transform: translateX(400px);
 }
 
-.container.active .form-box.register{
+.container.active.active-popup .form-box.register {
     transition: transform .18s ease;
     transform: translateX(0);
 }
-.input-box{
+
+.input-box {
     position: relative;
-    width:100%;
-    height:35px;
-    margin:30px 0;
+    width: 100%;
+    height: 35px;
+    margin: 30px 0;
 }
 
-.box1{
+.box1 {
     border-bottom: 2px solid #000000;
 
 }
-.input-box label{
+
+.input-box label {
     position: absolute;
     top: 50%;
-    left:0px;
-    transform:translateY(-50%);
+    left: 0px;
+    transform: translateY(-50%);
     font-size: 1em;
     color: #000000;
     font-weight: 600;
@@ -146,15 +148,15 @@ body {
 }
 
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label {
     top: -5px;
     /* color: transparent; */
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
-    height:100%;
-    background:transparent;
+    height: 100%;
+    background: transparent;
     border: none;
     outline: none;
     font-size: 1em;
@@ -162,10 +164,10 @@ body {
     padding: 0 35px 0 0;
 }
 
-.input-box .icon{
+.input-box .icon {
     position: absolute;
     right: 8px;
-    bottom:10px;
+    bottom: 10px;
     font-size: 18px;
 }
 
@@ -176,27 +178,28 @@ body {
     margin: -15px 0 15px;
 }
 
-.rem-forgot label{
-    width:55%;
+.rem-forgot label {
+    width: 55%;
 }
 
-.rem-forgot label input{
+.rem-forgot label input {
     accent-color: black;
     margin-right: 3px;
 }
 
-.rem-forgot a{
-    color:black;
+.rem-forgot a {
+    color: black;
     text-decoration: none;
 }
-.rem-forgot a:hover{
+
+.rem-forgot a:hover {
     text-decoration: underline;
 }
 
-.btn{
+.btn {
     width: 100%;
-    height:30px;
-    background:#000000;
+    height: 30px;
+    background: #000000;
     color: #ffffff;
     font-size: 1rem;
     border: none;
@@ -204,38 +207,63 @@ body {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     border: 2px solid white;
 }
 
-.login-reg{
+.login-reg {
     text-align: center;
     font-size: 0.9rem;
     font-weight: 500;
-    margin:15px 0 10px;
+    margin: 15px 0 10px;
 }
 
 .login-reg a {
-    color:black;
+    color: black;
     text-decoration: none;
 }
-.login-reg a:hover{
+
+.login-reg a:hover {
     text-decoration: underline;
 }
 
-.container .close-icon{
+.container .close-icon {
     position: absolute;
-    top:0;
-    right:0;
+    top: 0px;
+    right: 0;
     width: 40px;
-    height:40px;
+    height: 40px;
     font-size: 1.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:end;
+    align-items:flex-start;
     transition: none;
 }
 
-.container .close-icon:hover{
-    font-size: 1.3rem;
+.container .close-icon:hover {
+    font-size: 2rem;
+}
+
+.container .form-box.login .login-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-boxes button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-boxes button img {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+
 }

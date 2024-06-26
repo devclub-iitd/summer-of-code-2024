@@ -26,7 +26,7 @@
         <div class="close-icon"><ion-icon name="close"></ion-icon>
         </div>
 
-        <div class="form-box login" >
+        <div class="form-box login">
             <h3 style="text-align: center; font-size: 2em; color: black;">Login</h3>
             <form action="#">
                 <div class="input-box box1">
@@ -41,10 +41,24 @@
                 </div>
                 <div class="rem-forgot">
                     <label><input type="checkbox">Remember me</label>
-                    <a href="#" >Forgot Password?</a>
+                    <a href="#">Forgot Password?</a>
                 </div>
                 <div>
                     <button type="submit" class="btn">Login</button>
+                </div>
+                <div>
+                    <p style="text-align: center;font-size: 0.9rem;margin-top:10px">or continue with</p>
+                </div>
+                <div class="login-boxes">
+                    <button type="submit" class="google">
+                        <img src="icons8-google-48.png">
+                    </button>
+                    <button type="submit" class="facebook">
+                        <img src="icons8-facebook-48.png">
+                    </button>
+                    <button type="submit" class="twitter">
+                        <img src="icons8-twitter-48.png">
+                    </button>
                 </div>
                 <div class="login-reg">
                     <p>Don't have an account? <a href='#' class="registration-link">Sign-up</a></p>
@@ -52,22 +66,22 @@
             </form>
         </div>
 
-        <div class="form-box register" >
+        <div class="form-box register">
             <h3 style="text-align: center; font-size: 2em; color: black;">Sign-Up</h3>
             <form action="#">
                 <div class="input-box box1">
-                    <span class="icon"><ion-icon name="person"></ion-icon></span>
-                    <input type="text" required>
-                    <label>Username</label>
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="tel" minlength="10" maxlength="10" required />
+                    <label>Mobile number</label>
                 </div>
                 <div class="input-box box1">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
+                    <input type="email" required />
                     <label>Email</label>
                 </div>
                 <div class="input-box box1">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
+                    <input type="password" required />
                     <label>Password</label>
                 </div>
                 <div class="checklist input-box">
@@ -77,7 +91,8 @@
                     </select>
                 </div>
                 <div class="rem-forgot">
-                    <label style="width: 100%;"><input type="checkbox" id="mycheck">Agree to the terms & conditions</label>
+                    <label style="width: 100%;"><input type="checkbox" id="mycheck">Agree to the terms &
+                        conditions</label>
                 </div>
                 <div>
                     <button type="submit" class="btn">Sign-Up</button>
