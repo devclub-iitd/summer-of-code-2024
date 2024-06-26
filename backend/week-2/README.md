@@ -35,7 +35,7 @@ Before diving into the implementation tasks, ensure once "again" that you're fam
 
 
 ### Task 1: Product CRUD Operations
-(PS: We have used InventoryItem and Product interchangably, until mentioned).
+(Additional Notes: The term InventoryItem is referred to as Product here. Feel free to edit or add additional fields in your Database as needed. Additionally, include a Password field in the Staff Model.)
 #### Implementing Product CRUD Operations
 
 1. **Create API Endpoints:**
