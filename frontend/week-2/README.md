@@ -114,6 +114,25 @@ Add the following lines to your code.
 
     _You are free to add more, as you deem appropriate_.
 
+# API Documentation
+
+## Authentication API
+
+### Endpoint: [`http://167.71.236.10/api/login/`](http://167.71.236.10/api/login/)
+
+#### Method: `POST`
+
+**Description:** Authenticate user credentials and retrieves token.
+
+**Request Body:**
+```json
+{
+  "username": "admin",
+  "password": "admin@dsoc24"
+}
+```
+##Handle this token properly in your frontend as it would be required while making other api calls.
+
 ### Bonus Tasks
 
 Practice of using HTML, Bootstrap and this time, using Javascript to add more functionality and interactivity to the portal!
