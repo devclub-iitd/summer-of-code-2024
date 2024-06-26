@@ -114,13 +114,13 @@ Add the following lines to your code.
 
     _You are free to add more, as you deem appropriate_.
 
-# API Documentation
+## API Documentation
 
-## Authentication API
+### Authentication API
 
-### Endpoint: [`http://167.71.236.10/api/login/`](http://167.71.236.10/api/login/)
+#### Endpoint: [`http://167.71.236.10/api/login/`](http://167.71.236.10/api/login/)
 
-#### Method: `POST`
+##### Method: `POST`
 
 **Description:** Authenticate user credentials and retrieves token.
 
@@ -131,7 +131,7 @@ Add the following lines to your code.
   "password": "admin@dsoc24"
 }
 ```
-##Handle this token properly in your frontend as it would be required while making other api calls.
+####Handle this token properly in your frontend as it would be required while making other api calls.
 
 ### Bonus Tasks
 
