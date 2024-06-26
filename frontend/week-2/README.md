@@ -131,7 +131,7 @@ Add the following lines to your code.
   "password": "admin@dsoc24"
 }
 ```
-####Handle this token properly in your frontend as it would be required while making other api calls.
+### Handle this token properly in your frontend as it would be required while making other api calls.
 
 ### Bonus Tasks
 
