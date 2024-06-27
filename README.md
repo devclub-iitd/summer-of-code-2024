@@ -14,6 +14,9 @@ DevClub will also be giving attracting **rewards** to those people who participa
       Setting up flutter sdk and vscode,
       creating a flutter project,learning basic widgets,routing,snackbars and finally replicating figma design.
 
+- [ ] **[Week 2](app/week-2)** :
+create barcode scanner,learn oops concepts,use provider for state management and create a profile page and add functionalty of logout and profile update.
+
 ### [Backend Development](backend)
 
 - [ ] **[Week 1](backend/week-1)** : Setting up the dev environment, initialise a Flask project, connect it to PostgreSQL, and create database models for inventory items and customers.
