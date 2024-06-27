@@ -20,6 +20,7 @@ create barcode scanner,learn oops concepts,use provider for state management and
 ### [Backend Development](backend)
 
 - [ ] **[Week 1](backend/week-1)** : Setting up the dev environment, initialise a Flask project, connect it to PostgreSQL, and create database models for inventory items and customers.
+- [ ] **[Week 2](backend/week-2)** : Create API endpoints, implement CRUD Operations and develop Product Management Interface. 
 
 ### [Frontend Development](frontend)
 
