@@ -18,7 +18,7 @@ The project aims to develop a sophisticated Point of Sales (PoS) system to strea
 - *Strong Community Support:* The extensive documentation and active community support available for Flask help address development issues and leverage best practices.
 
 ## Timeline
-### Week 1: Setup and Basic CRUD Operations
+### Week 1: Setup
 
 *Concepts:*
 - Introduction to Flask and PostgreSQL.
