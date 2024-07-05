@@ -33,6 +33,8 @@ As discussed in the last session, this week, we are going to start with ReactJS 
 
 On popular demand, and with interest of time, we are providing to you a [sample template](https://www.figma.com/design/pQu0l187VcoWnM5Icl9sSs/DSoC-Frontend-Cashier-Portal-Sample-Template?node-id=0-1&t=Hb5IyIGmWUwIlXc8-1) of how the _Cashier Portal_ should look.
 
+Before starting, make sure you code up (probably structure your code better!) your login and sign up pages in ReactJS. It won't be too much of a hassle!
+
 - Once the cashier login is successful, the customer login page needs to be set up. Name and Mobile are marked as mandatory fields in order to maintain a unique profile for each customer. Address is added to keep the option for deliveries open!
 - For clarity, upon clicking the "Go" option, the sidebar with customer details entered should be updated.
 - On the checkout page, the customer name should be displayed.
