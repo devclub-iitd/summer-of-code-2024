@@ -17,7 +17,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 2](app/week-2)** :
       create barcode scanner,learn oops concepts,use provider for state management and create a profile page and add functionalty of logout and profile update.
 
-- [ ] **[Week 2](app/week-3)** :
+- [ ] **[Week 3](app/week-3)** :
       Refactoring present codebase to use Firebase services like firebase Authentication,firestore and cloud storage.
 
 ### [Backend Development](backend)
