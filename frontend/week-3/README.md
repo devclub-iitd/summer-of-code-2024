@@ -55,6 +55,8 @@ Before starting, make sure you code up (probably structure your code better!) yo
   - API Documentation provided.
     - (_First, hardcode with random string variables and complete your frontend by the time the APIs are available._)
 
+### API Documentation - [Click Here](https://github.com/devclub-iitd/summer-of-code-2024/edit/front-end/frontend/week-3/APIs/README.md)
+
 ### Bonus Tasks
 
 - Can you send the generated invoice to the registered phone number of the customer? (Assume for simplicity, it is whatsapp-enabled). Read about `react-share`.
