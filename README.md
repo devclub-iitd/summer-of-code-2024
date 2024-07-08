@@ -30,11 +30,12 @@ DevClub will also be giving attracting **rewards** to those people who participa
 
 - [ ] **[Week 1](frontend/week-1)** : Learn HTML, CSS, and JavaScript to create a visually appealing Login and Sign-Up page. Use provided Figma designs and ensure responsiveness for different screen sizes.
 - [ ] **[Week 2](frontend/week-2)** : Use Fetch APIs to authenticate login and store newly signed up members. Get familiar with Bootstrap, and add additional functionalities to the portal using Javascript.
+- [ ] **[Week 3](frontend/week-3)** : Learn ReactJS and build the Cashier portal. Use components, React Hooks, React Routers, React-PDF and React-share.
 
 ### [Machine Learning](machine-learning)
 
 - [ ] **[Week 1](machine-learning/week-1)** : Learn how to build a full ML model to detect fraudulant transactions for our POS system. Start off with standard ML libraries like `sklearn`, `numpy` and `pandas`.
-- [ ] **[Week 2](machine-learning/week-2)** : Learn how to build a time-series ML model to forecast sales and inventory for a store! Use time series prediction methods such as ARIMA, LSTM and Prophet. 
+- [ ] **[Week 2](machine-learning/week-2)** : Learn how to build a time-series ML model to forecast sales and inventory for a store! Use time series prediction methods such as ARIMA, LSTM and Prophet.
 
 ## How to Participate
 
