@@ -17,10 +17,14 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 2](app/week-2)** :
       create barcode scanner,learn oops concepts,use provider for state management and create a profile page and add functionalty of logout and profile update.
 
+- [ ] **[Week 3](app/week-3)** :
+      Refactoring present codebase to use Firebase services like firebase Authentication,firestore and cloud storage.
+
 ### [Backend Development](backend)
 
 - [ ] **[Week 1](backend/week-1)** : Setting up the dev environment, initialise a Flask project, connect it to PostgreSQL, and create database models for inventory items and customers.
 - [ ] **[Week 2](backend/week-2)** : Create API endpoints, implement CRUD Operations and develop Product Management Interface.
+- [ ] **[Week 3](backend/week-3)** : Implement user management and authentication, including secure staff authentication, staff and customer CRUD operations, secure password handling, and transaction management with full CRUD functionality.
 
 ### [Frontend Development](frontend)
 
