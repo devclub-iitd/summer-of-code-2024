@@ -36,6 +36,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 
 - [ ] **[Week 1](machine-learning/week-1)** : Learn how to build a full ML model to detect fraudulant transactions for our POS system. Start off with standard ML libraries like `sklearn`, `numpy` and `pandas`.
 - [ ] **[Week 2](machine-learning/week-2)** : Learn how to build a time-series ML model to forecast sales and inventory for a store! Use time series prediction methods such as ARIMA, LSTM and Prophet.
+- [ ] **[Week 3](machine-learning/week-3)** : Learn how to build a clustering model to automatically split your customer base into segments! Then, build a recommmendations engine to give personalised product recommendations. 
 
 ## How to Participate
 
