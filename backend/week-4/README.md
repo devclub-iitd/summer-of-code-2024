@@ -16,7 +16,7 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
   - Understand how to generate PDF documents using Flask extensions such as ReportLab or WeasyPrint.
   - Learn how to store and retrieve these PDFs.
   - [ReportLab User Guide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
-  - [WeasyPrint Documentation](https://weasyprint.org/docs/)
+  - [WeasyPrint Documentation](https://doc.courtbouillon.org/weasyprint/stable/)
 
 - **Storing and Retrieving Transaction History:**
   - Understand best practices for storing and retrieving transaction data.
