@@ -10,14 +10,18 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
 - **Handling Sales Transactions:**
   - Learn how to process and manage sales transactions within your application.
   - Understand how to update database fields corresponding to each transaction.
+  - [Understanding RESTful Transactions](https://restfulapi.net/rest-api-design-tutorial-with-example/)
 
 - **Generating PDFs with Flask Extensions:**
   - Understand how to generate PDF documents using Flask extensions such as ReportLab or WeasyPrint.
   - Learn how to store and retrieve these PDFs.
+  - [ReportLab User Guide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+  - [WeasyPrint Documentation](https://weasyprint.org/docs/)
 
 - **Storing and Retrieving Transaction History:**
   - Understand best practices for storing and retrieving transaction data.
   - Learn about data integrity and secure storage practices for transaction data.
+  - [Flask-SQLAlchemy Documentation](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
 
 **Second Half:**
 
@@ -90,35 +94,11 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
 
 **Once you have connected to your Virtual Machine, follow the steps below to set up the Virtual Machine:**
 
-1. **Install Git:**
-   - Install Git on the Virtual Machine using the command:
-     ```bash
-     sudo apt install git
-     ```
-
-2. **Install PostgreSQL:**
-   - Install PostgreSQL on the Virtual Machine using the command:
-     ```bash
-     sudo apt install postgresql
-     ```
-
-3. **Clone Your Flask Project:**
-   - Clone your Flask project from GitHub on the Virtual Machine using the command:
-     ```bash
-     git clone <your-repo-url>
-     ```
-
-4. **Install Dependencies:**
-   - Install all the dependencies for your Flask project in a virtual environment using the command:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-5. **Run Your Flask Project:**
-   - Run your Flask project on the Virtual Machine using the command:
-     ```bash
-     python manage.py runserver
-     ```
+   - Install Git on the Virtual Machine using the command:```bashsudo apt install git```
+   - Install PostgreSQL on the Virtual Machine using the command:```bashsudo apt install postgresql```
+   - Clone your Flask project from GitHub on the Virtual Machine using the command:```bashgit clone <your-repo-url>```
+   - Install all the dependencies for your Flask project in a virtual environment using the command:```bashpip install -r requirements.txt```
+   - Run your Flask project on the Virtual Machine using the command:```bashpython manage.py runserver```
 
 ### Conclusion
 By the end of Week 4, you should have a comprehensive PoS interface with transaction processing, PDF invoice generation, and secure transaction history retrieval. Additionally, you will have deployed your application to Microsoft Azure, ensuring it is accessible and operational in a production-like environment. This week is crucial for integrating all components and ensuring a smooth transition to deployment.
