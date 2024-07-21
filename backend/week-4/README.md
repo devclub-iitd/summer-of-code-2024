@@ -17,9 +17,10 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
 - **Generating PDFs with Flask Extensions:**
   - Understand how to generate PDF documents using Flask extensions such as ReportLab or WeasyPrint.
   - Learn how to store and retrieve these PDFs.
+  - [Generate Dynamic PDFs with Flask](https://www.youtube.com/watch?v=C8jxInLM9nM) 
   - [ReportLab User Guide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
   - [WeasyPrint Documentation](https://doc.courtbouillon.org/weasyprint/stable/)
-
+  
 - **Storing and Retrieving Transaction History:**
   - Understand best practices for storing and retrieving transaction data.
   - Learn about data integrity and secure storage practices for transaction data.
@@ -30,7 +31,6 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
 - **Setting Up Microsoft Azure:**
   - Learn how to set up a Microsoft Azure account.
   - Understand how to set up a virtual machine on Azure, clone your repository, and run the initial setup.
-
 
 ### Task 1: PoS Interface and Transactions
 
@@ -75,7 +75,7 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
    - Ensure secure access to transaction history data, possibly by restricting access to authenticated and authorized staff.
 
 
-### Task 4: Initial Deployment
+### Task 5: Initial Deployment
 
 #### Setting Up Microsoft Azure and Initial Deployment
 
@@ -99,7 +99,15 @@ Before proceeding with the implementation tasks, ensure you have a solid underst
 3. **Connecting to the Virtual Machine:**
    - Once the Virtual Machine is created, go to the Overview tab and click on "Connect". Follow the instructions to connect to your Virtual Machine using SSH. [How to SSH](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows).
 
+### Bonus Tasks for Week 4
 
+1. **Custom Invoice Design:**
+- Allow customization of the invoice layout, including adding company logos, custom fonts, and color schemes.
+- Provide options for different invoice templates that staff can select from while generating invoices.
+
+2. **Dashboard for Admin:**
+- Create an admin dashboard that provides an overview of key metrics, such as total sales, inventory levels, and top-selling products.
+- Include visualizations like pie charts, bar graphs, and line charts.
 
 ### Conclusion
 By the end of Week 4, you should have a comprehensive PoS interface with transaction processing, PDF invoice generation, and secure transaction history retrieval. Additionally, you will have deployed your application to Microsoft Azure, ensuring it is accessible and operational in a production-like environment. This week is crucial for integrating all components and ensuring a smooth transition to deployment.
