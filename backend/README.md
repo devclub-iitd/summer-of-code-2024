@@ -69,54 +69,56 @@ The project aims to develop a sophisticated Point of Sales (PoS) system to strea
     - Use bcrypt to hash and store user passwords securely.
     - Implement session management for user login sessions.
 
-### Week 4: Comprehensive PoS Interface, Transactions, Invoicing, and Initial Deployment
-
-*Concepts (First Half):*
-- Handling sales transactions.
-- Generating PDF and email invoices using Flask extensions.
-- Storing and retrieving transaction history.
-- Implementing secure and efficient data storage practices.
-
-*Project Tasks (First Half):*
-1. *PoS Interface and Transactions:*
-    - Develop API endpoints for the PoS interface.
-    - Implement the checkout process, including item addition and removal from the cart.
-    - Ensure proper validation and error handling for sales transactions.
-2. *Invoice Generation:*
-    - Use libraries like ReportLab or WeasyPrint to generate PDF invoices.
-    - Implement functionality to email invoices to customers.
-3. *Transaction History:*
-    - Develop endpoints to store and retrieve transaction history.
-    - Implement secure access to transaction history data.
-    - Ensure data integrity and secure storage practices for transaction data.
-
-*Concepts (Second Half):*
-- Deployment strategies for Flask applications.
-- Using Docker to containerize the application.
-
-*Project Tasks (Second Half):*
-1. *Containerization:*
-    - Containerize the Flask application using Docker.
-    - Write a Dockerfile and docker-compose.yml for the application.
-
-### Week 5: Final Deployment
+### Week 4: Comprehensive PoS Interface, Transactions, Invoicing, Authentication, and Initial Deployment
 
 *Concepts:*
-- Setting up Continuous Integration/Continuous Deployment (CI/CD) pipelines.
-- Deploying to a cloud platform (AWS, GCP, or Azure).
+- Handling Sales Transactions
+- Authentication Using SimpleJWT
+- Generating PDFs with Flask Extensions
+- Storing and Retrieving Transaction History
+- Setting Up Microsoft Azure
 
 *Project Tasks:*
-1. *CI/CD Pipeline:*
-    - Set up a CI/CD pipeline using tools like GitHub Actions or GitLab CI.
-    - Automate the deployment process.
-2. *Cloud Deployment:*
-    - Deploy the application to a cloud platform (AWS, GCP, or Azure).
-    - Configure environment variables and secrets management.
-3. *Production-Readiness:*
-    - Ensure the application is production-ready with proper security configurations.
-    - Optimize for scalability and performance.
-4. *Monitoring and Logging:*
-    - Set up monitoring and logging for the deployed application to ensure it runs smoothly in production.
+1. *PoS Interface and Transactions:*
+   - Ensure proper functioning and integration of API endpoints.
+   - Implement transaction processing.
+
+2. *Improving Authentication Using SimpleJWT:*
+   - Install and configure SimpleJWT.
+
+3. *Invoice Generation:*
+   - Generate PDF invoices using ReportLab or WeasyPrint.
+   - Store and retrieve invoices.
+
+4. *Transaction History:*
+   - Develop endpoints to retrieve transaction history.
+   - Ensure secure access to transaction data.
+
+5. *Initial Deployment:*
+   - Set up Microsoft Azure account and VM.
+   - Deploy the Flask application on Azure.
+
+### Week 5: Initial Setup, Deployment, and HTTPS Configuration
+
+*Concepts:*
+- Setting Up a Virtual Machine
+- Configuring Nginx and Gunicorn
+- Domain Name Configuration
+- Setting Up HTTPS
+
+*Project Tasks:*
+1. *Setting Up the VM:*
+   - Connect to VM, install Git and PostgreSQL, and clone project.
+
+2. *Configuring Nginx and Gunicorn:*
+   - Set up Gunicorn for Flask application.
+   - Configure Nginx as a reverse proxy.
+
+3. *Domain Name Configuration:*
+   - Configure domain name for Flask and Nginx.
+
+4. *Setting Up HTTPS:*
+   - Secure domain with Let's Encrypt and configure HTTPS.
 
 ## Learning Resources
 
