@@ -19,6 +19,9 @@ DevClub will also be giving attracting **rewards** to those people who participa
 
 - [ ] **[Week 3](app/week-3)** :
       Refactoring present codebase to use Firebase services like firebase Authentication,firestore and cloud storage.
+      
+- [ ] **[Week 4](app/week-4)** :
+      Implementing API calls, integrating a payment gateway, generating and managing invoices, updating sales data on Firestore, and integrating Firebase Analytics to track user interactions           and sales       data.Each task focuses on enhancing app functionality and ensuring robust, real-time data handling and analysis.  
 
 ### [Backend Development](backend)
 
