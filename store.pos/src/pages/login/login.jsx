@@ -1,67 +1,69 @@
 
-import { useState, useRef } from 'react';
+// import { useState, useRef } from 'react';
 import { Icon } from '@iconify/react';
 import './login.css';
-import axios from 'axios';
-import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
-// import './signup'; // Adjust the path as necessary
+// import axios from 'axios';
+// import { toast } from 'react-toastify';
+// import { useNavigate } from 'react-router-dom';
+// import './signup'; 
 
 const LoginPage = () => {
 
-    const navigate = useNavigate();
-    const [active, setActive] = useState(false);
-    const [activePopup, setActivePopup] = useState(false);
-    const [showLogin, setShowLogin] = useState(false);
+    // const navigate = useNavigate();
+    // const [active, setActive] = useState(false);
+    // const [activePopup, setActivePopup] = useState(false);
+    // const [showLogin, setShowLogin] = useState(false);
 
-    const handleBtnPopupClick = () => {
-        setActivePopup(true);
-    };
+    // const handleBtnPopupClick = () => {
+    //     setActivePopup(true);
+    // };
 
-    const handleCloseIconClick = () => {
-        setActivePopup(false);
-        setShowLogin(false);
-    };
+    // const handleCloseIconClick = () => {
+    //     setActivePopup(false);
+    //     setShowLogin(false);
+    // };
 
-    const handleRegistrationLinkClick = () => {
-        setActive(true);
-        // navigate('/signup');
-        };
+    // const handleRegistrationLinkClick = () => {
+    //     setActive(true);
+    //     // navigate('/signup');
+    // };
 
-    const usernameInputRef = useRef(null); // Create a ref for the username input
-    const passwordInputRef = useRef(null); // Create a ref for the username input
+    // const usernameInputRef = useRef(null); // Create a ref for the username input
+    // const passwordInputRef = useRef(null); // Create a ref for the username input
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        // Authentication logic here...
-        const toastId = toast.loading('Logging in...');
-        const username = usernameInputRef.current.value;
-        const password = passwordInputRef.current.value;
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     // Authentication logic here...
+    //     const toastId = toast.loading('Logging in...');
+    //     const username = usernameInputRef.current.value;
+    //     const password = passwordInputRef.current.value;
 
-        axios.get(`/staff/login`, {
-            params: {
-                username: username,
-                password: password
-            }
-        }).then((response) => {
-            if (response.data) {
-                localStorage.setItem('token', response.data.token)
-                axios.defaults.headers['Authorization'] = `Bearer ${response.data.token}`
-                toast.success('Login successful!', { id: toastId })
-                const role = response.data.is_admin ? 'admin' : 'cashier';
-                navigate(`/${role}`)
-            }
-            else{
-                toast.error('An error occurred', { id: toastId })}
-        }).catch((error) => {
-            if (error?.response?.data?.error?.length > 0) {
-                toast.error(error.response.data.error, { id: toastId })
-            } else
-                toast.error('An error occurred', { id: toastId })
-        })
-    };
+    //     axios.get(`/staff/login`, {
+    //         params: {
+    //             username: username,
+    //             password: password
+    //         }
+    //     }).then((response) => {
+    //         if (response.data) {
+    //             localStorage.setItem('token', response.data.token)
+    //             axios.defaults.headers['Authorization'] = `Bearer ${response.data.token}`
+    //             toast.success('Login successful!', { id: toastId })
+    //             const role = response.data.is_admin ? 'admin' : 'cashier';
+    //             navigate(`/${role}`)
+    //         }
+    //         else {
+    //             toast.error('An error occurred', { id: toastId })
+    //         }
+    //     }).catch((error) => {
+    //         if (error?.response?.data?.error?.length > 0) {
+    //             toast.error(error.response.data.error, { id: toastId })
+    //         } else
+    //             toast.error('An error occurred', { id: toastId })
+    //     })
+    // };
 
     return (<>
+    <div>hello</div>
         <header>
             <div className="logo">
                 <img src="store.pos\src\images\Screenshot 2024-06-25 222043.png" alt="Logo" />
@@ -74,9 +76,10 @@ const LoginPage = () => {
                 <button className="btnlogin" onClick={handleBtnPopupClick}>Login</button>
             </nav>
         </header>
-        <div className={`container ${showLogin ? 'active-popup' : ''}`}>
-                { activePopup && (
-                <>
+        <div className="container">
+        {/* <div className={`container ${showLogin ? 'active-popup' : ''}`}> */}
+            {/* {activePopup && ( */}
+                {/* <> */}
                     <Icon icon="close" className="close-icon" onClick={handleCloseIconClick} />
                     <div className="form-box login">
                         <h3 style={{ textAlign: 'center', fontSize: '2em', color: 'black' }}>Login</h3>
@@ -117,12 +120,12 @@ const LoginPage = () => {
                             </div>
                         </form>
                     </div>
-                </>
-            )
-        }
+                {/* </> */}
+            {/* ) */}
+            {/* } */}
         </div >
     </>
     )
 }
 
-export default LoginPage
+export default LoginPage;
