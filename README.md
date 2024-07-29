@@ -27,7 +27,8 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 1](frontend/week-1)** : Learn HTML, CSS, and JavaScript to create a visually appealing Login and Sign-Up page. Use provided Figma designs and ensure responsiveness for different screen sizes.
 - [ ] **[Week 2](frontend/week-2)** : Use Fetch APIs to authenticate login and store newly signed up members. Get familiar with Bootstrap, and add additional functionalities to the portal using Javascript.
 - [ ] **[Week 3](frontend/week-3)** : Learn ReactJS and build the Cashier portal. Use components, React Hooks, React Routers, React-PDF and React-share.
-- [ ] **[Week 4](frontend/week-4)** : Get more practise in React JS and build the Admin portal. Use Javascript libraries for analytics and add extra functionalities to improve user experience!
+- [ ] **[Week 4](frontend/week-4)** : Get more practice in React JS and build the Admin portal. Use Javascript libraries for analytics and add extra functionalities to improve user experience!
+- [ ] **[Week 5](frontend/week-5)** : Deploy your website on the web to complete the final stage of production of the PoS portal. Also try integrating the machine learning model with the frontend to have a complete real-life set-up with price-correction according to the market conditions, etc.
 
 ### [Machine Learning](machine-learning)
 
