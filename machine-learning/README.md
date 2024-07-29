@@ -102,18 +102,12 @@ We'll be using the following tools and technologies:
 - [Optional] Develop a real-time recommendation API using `flask` or `fastapi`, so that other parts of the PoS system can use this!
 - [Optional] Implement A/B testing framework using scipy.stats for evaluating recommendation effectiveness
 
-### Week 4: AI Customer Chatbot with RAG (Retrieval-Augmented Generation)
+### Week 4: Dynamic Pricing and Demand Forecasting
 
-- Create a knowledge base using:
-  - `sentence-transformers` for generating embeddings of product information and FAQs
-  - Vector databases for efficient similarity search
-- Implement the RAG architecture:
-  - Try out LangChain/LlamaIndex's many retriever models!
-  - Use a `transformers` LLM, or an external API as the generator model
-- Fine-tune small models on domain-specific data using PyTorch Lightning
-- Implement context management for multi-turn conversations
-- [Optional] Create an interactive dashboard using `streamlit` or `gradio` for realtime chat!
-- [Optional] Try implementing multimodal models/TTS and STT models to get a chatbot you can 'talk' to!
+- Maximize revenue by setting optimal prices based on current market conditions
+- Improve inventory management by anticipating demand fluctuations
+- Enhance customer satisfaction by offering competitive prices
+- Respond quickly to market changes and competitor actions
 
 ### Week 5: All-Powerful AI Agentic Chatbot
 
