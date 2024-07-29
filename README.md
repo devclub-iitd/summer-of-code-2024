@@ -21,7 +21,10 @@ DevClub will also be giving attracting **rewards** to those people who participa
       Refactoring present codebase to use Firebase services like firebase Authentication,firestore and cloud storage.
       
 - [ ] **[Week 4](app/week-4)** :
-      Implementing API calls, integrating a payment gateway, generating and managing invoices, updating sales data on Firestore, and integrating Firebase Analytics to track user interactions           and sales       data.Each task focuses on enhancing app functionality and ensuring robust, real-time data handling and analysis.  
+      Implementing API calls, integrating a payment gateway, generating and managing invoices, updating sales data on Firestore, and integrating Firebase Analytics to track user interactions           and sales       data.Each task focuses on enhancing app functionality and ensuring robust, real-time data handling and analysis.
+      
+- [ ] **[Week 5](app/week-5)** :
+      Implementing password reset and change functionalities using Firebase Auth, enable profile updates, enhance the UI with swipe-to-refresh functionality, and incorporate basic animations in Flutter to improve the overall user experience.        
 
 ### [Backend Development](backend)
 
