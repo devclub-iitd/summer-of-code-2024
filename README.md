@@ -29,6 +29,7 @@ DevClub will also be giving attracting **rewards** to those people who participa
 - [ ] **[Week 2](backend/week-2)** : Create API endpoints, implement CRUD Operations and develop Product Management Interface.
 - [ ] **[Week 3](backend/week-3)** : Implement user management and authentication, including secure staff authentication, staff and customer CRUD operations, secure password handling, and transaction management with full CRUD functionality.
 - [ ] **[Week 4](backend/week-4)** : Invoice Generation, Azure Account Creation and Setting up Virtual machine.
+- [ ] **[Week 5](backend/week-5)** : Setting up the VM, Configuring Ngnix and Gunicorn, Domain Names and HTTPs.
 
 ### [Frontend Development](frontend)
 
