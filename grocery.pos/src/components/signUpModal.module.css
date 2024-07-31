@@ -1,0 +1,76 @@
+/* src/components/LoginModal.module.css */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-align: left;
+}
+
+.modalContent {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    /* Responsive width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputField {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 380px;
+    margin-left: 3px;
+    height: 25px;
+}
+
+.checklist {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    border: white;
+    background: black;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .modalContent {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .inputField {
+        width: 100%;
+        /* Full width on smaller screens */
+    }
+}

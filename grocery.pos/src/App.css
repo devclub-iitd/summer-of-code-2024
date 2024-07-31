@@ -1,0 +1,7 @@
+.backgroundImage {
+    background-image: url('/public/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    filter: 'blur(5px)',
+}

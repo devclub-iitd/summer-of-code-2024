@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login or sign-in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="Screenshot 2024-06-25 222043.png"></div>
+        <nav class="nav-bar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <button class="btnlogin">Login</button>
+        </nav>
+        <!-- Add this to the head section of task1.html -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    </header>
+
+    <div class="container">
+        <div class="close-icon"><ion-icon name="close"></ion-icon>
+        </div>
+
+        <div class="form-box login">
+            <h3 style="text-align: center; font-size: 2em; color: black;">Login</h3>
+            <form action="#">
+                <div class="input-box box1">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="username-log" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box box1">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="password-log" required>
+                    <label>Password</label>
+                </div>
+                <div class="rem-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Login</button>
+                </div>
+                <div>
+                    <p style="text-align: center;font-size: 0.9rem;margin-top:10px">or continue with</p>
+                </div>
+                <div class="login-boxes">
+                    <button type="submit" class="google">
+                        <img src="icons8-google-48.png">
+                    </button>
+                    <button type="submit" class="facebook">
+                        <img src="icons8-facebook-48.png">
+                    </button>
+                    <button type="submit" class="twitter">
+                        <img src="icons8-twitter-48.png">
+                    </button>
+                </div>
+                <div class="login-reg">
+                    <p>Don't have an account? <a href='#' class="registration-link">Sign-up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h3 style="text-align: center; font-size: 2em; color: black;">Sign-Up</h3>
+            <form action="#">
+                <div class="input-box box1">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="tel" minlength="10" maxlength="10" required />
+                    <label>Mobile number</label>
+                </div>
+                <div class="input-box box1">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label>Email</label>
+                </div>
+                <div class="input-box box1">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label>Password</label>
+                </div>
+                <div class="checklist input-box">
+                    <select name="user_type" style="width: 100%;">
+                        <option value="user">user</option>
+                        <option value="admin">admin</option>
+                    </select>
+                </div>
+                <div class="rem-forgot">
+                    <label style="width: 100%;"><input type="checkbox" id="mycheck">Agree to the terms &
+                        conditions</label>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Sign-Up</button>
+                </div>
+                <div class="login-reg">
+                    <p>Already have an account? <a href='#' class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
