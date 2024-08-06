@@ -390,4 +390,6 @@ Submit your files as follows:
 - Pinecone Vector Database: https://www.pinecone.io/docs/
 - Streamlit Documentation: https://docs.streamlit.io/
 - RAG Paper: https://arxiv.org/abs/2005.11401
-- Agentic AI: A Declarative Language for AI Agents: https://arxiv.org/abs/2104.06353
+- RAG Course Taught by Dhruv and Shourya in collaboration with Pathways: https://tryst-iit-delhi.gitbook.io/llm-course/basics-of-llms
+
+Refer to the RAG Course for step-by-step guides on building RAG and a much more in-depth understanding of the same.
