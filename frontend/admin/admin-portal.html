@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot 2024-06-25 222043.png" width="80" height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center">
+                    <a href="#">
+                        <ion-icon name="person-circle" size="large" class="me-2 text-dark"></ion-icon>
+                    </a>
+                    <span class="username me-2"></span>
+                    <button class="btn btn-outline-dark" type="submit">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav w-30">
+                <li class="nav-item dropdown">
+                    <div id="time-clock"></div>
+                    <a class="nav-link dropdown-toggle" href="#" id="stockDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Select Stock
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="stockDropdown">
+                        <li><a class="dropdown-item" href="#">Stock 1</a></li>
+                        <li><a class="dropdown-item" href="#">Stock 2</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Stock 3</a></li>
+                        <!-- Add more stocks as needed -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Stock Item 1 -->
+                <div class="stock-item">
+                    <h5>Stock 1</h5>
+                    <p>Price: $100</p>
+                    <p>Change: +2.5%</p>
+                    <ion-icon name="arrow-up-circle" size="large"></ion-icon>
+                    <!-- Additional details about the stock -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Stock Item 2 -->
+                <div class="stock-item">
+                    <h5>Stock 2</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Stock Item 3 -->
+                <div class="stock-item">
+                    <h5>Stock 3</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Stock Item 4 -->
+                <div class="stock-item">
+                    <h5>Stock 4</h5>
+                    <p>Price: $100</p>
+                    <p>Change: +2.5%</p>
+                    <ion-icon name="arrow-up-circle" size="large"></ion-icon>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Stock Item 5 -->
+                <div class="stock-item">
+                    <h5>Stock 5</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Stock Item 6 -->
+                <div class="stock-item">
+                    <h5>Stock 6</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container mt-4">
+        <h4>Recent Orders : </h4>
+        <div class="row">
+            <!-- Order Card 1 -->
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Order ID: #123456</h5>
+                        <p class="card-text">Date: MM/DD/YYYY HH:MM AM/PM</p>
+                        <p class="card-text">Total: $XXX.XX</p>
+                        <!-- Additional order details -->
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above structure for each order -->
+            <!-- Order Card 2 -->
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Order ID: #7891011</h5>
+                        <p class="card-text">Date: MM/DD/YYYY HH:MM AM/PM</p>
+                        <p class="card-text">Total: $XXX.XX</p>
+                        <!-- Additional order details -->
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h4>Urgently Needed Stocks : </h4>
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div class="card text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Stock ID: #123456</h5>
+                        <p class="card-text">Quantity Needed: XX</p>
+                        <p class="card-text">Last Ordered: MM/DD/YYYY</p>
+                        <!-- Additional stock details -->
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above structure for each urgently needed stock -->
+            <div class="col-md-4 mt-3">
+                <div class="card text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Stock ID: #7891011</h5>
+                        <p class="card-text">Quantity Needed: YY</p>
+                        <p class="card-text">Last Ordered: MM/DD/YYYY</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="admin-portal.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.bg-navbar{
+    background-color: rgb(207, 151, 151) !important;
+}
+
+.stock-item {
+    background-color: rgb(175, 171, 171); 
+    padding: 20px;
+    margin-top: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+.stock-item h5 {
+    margin-bottom: 0; /* Removes bottom margin from headings */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.btn-primary {
+    background-color:rgb(228, 228, 228) !important;
+    border-color:#000000 !important;
+    color: #000 !important;;
+}
+
+body{
+    background-color: rgb(209, 198, 198) !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333; /* Darker text for better contrast */
+}
+
+.navbar-light .dropdown-menu {
+    border-radius: 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item.active {
+    background-color: #f8f9fa; /* Light grey highlight */
+    color: #333; /* Dark text */
+}
+
+
+.nav-item.dropdown {
+    display: flex; /* Use flexbox to align children horizontally */
+    align-items: center; /* Vertically center the items */
+}
+
+#time-clock {
+    font-size: 16px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between the time clock and the dropdown menu */
+    /* Add any additional styling as needed */
+}
+
+.dropdown-menu {
+    position: absolute; /* Position the dropdown menu absolutely */
+    right: 0; /* Align the dropdown menu to the right edge of its container */
+    margin-left: 10px; /* Add some margin to separate the dropdown menu from the time clock */
+}
